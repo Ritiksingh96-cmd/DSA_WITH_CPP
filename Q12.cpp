@@ -1,0 +1,14 @@
+/*C++ Program To Print Multiplicaton Table of a Number*/
+#include<iostream>
+using namespace std;
+
+int main(){
+    int n;
+    cout<<"Enter no Multiplication Table You want : ";
+    cin>>n;
+    for (int i = 1; i <= 10; i++)
+    {
+        cout<<n<<" X "<<i<<" : "<<i*n<<endl;
+    }
+    return 0;
+}
